@@ -4,8 +4,6 @@
 #include<time.h>
 #include<math.h>
 
-
-
 /*任务一*/
 void Task_1(void)
 {
@@ -297,7 +295,7 @@ void zCF(void)
 	{
 		do {
 			a = rand() % 10 + 1,
-				b = rand() % 10 + 1;
+			b = rand() % 10 + 1;
 		} while (a % b != 0);
 		int ans;
 
@@ -358,8 +356,8 @@ void Task_5(void)
 	{
 		if (a > 7)return;
 		else {
-			printf("正确率小于75%，重做！\n");
-			Task_4();
+			printf("正确率小于75%%，重做！\n");
+			a=Task_4();
 		}
 	}
 }
